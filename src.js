@@ -41,3 +41,8 @@ function showSlider(type){
         carouselDom.classList.remove('next');
         carouselDom.classList.remove('prev');
     }, timeRunning);
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+        next.click();
+    }, timeAutoNext)
+}
