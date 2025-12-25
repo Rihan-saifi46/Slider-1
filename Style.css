@@ -52,21 +52,24 @@ header a{
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
-    color: #fff;
+    color: #fff; 
     text-shadow: 0 5px 10px #0004;
 }
 .carousel .list .item .author{
-    font-weight: bold;
+    font-weight: bold; font-size: 1em;
     letter-spacing: 10px;
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
     line-height: 1.3em;
 }
 .carousel .list .item .topic{
     color: #f1683a;
+}
+.des{
+width: 55%;
 }
 .carousel .list .item .buttons{
     display: grid;
